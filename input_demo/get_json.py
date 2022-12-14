@@ -5,6 +5,7 @@ def get_json_raw(Z,idx_reordered,labels_reordered,fname):
     # Z: the linkage matrix as described here https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html
     # idx_reordered: reordered index along the specified axis
     # labels_reordered: reordered labels that match the ordering in the clustermap
+    # fname: the file name of the output json file
     leaves = [int(x) for x in idx_reordered]
     label_mp = {}
     for leaf, label in zip(leaves,labels_reordered):
@@ -68,6 +69,7 @@ def get_json(g, row=True, labels=None, fname='nodes'):
     # g: output object from seaborn.clustermap function
     # row: whether to get json data of the row dendrogram or the column dendrogram
     # labels: text labels in the order as in the input data to clustermap
+    # fname: the file name of the output json file
     if row:
         leaves = g.dendrogram_row.reordered_ind
         Z = g.dendrogram_row.linkage

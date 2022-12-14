@@ -7,6 +7,7 @@ get_json <- function(g,row=T,labels=NA, fname='nodes'){
 # g: output object from pheatmap function
 # row: whether to get json data of the row dendrogram or the column dendrogram
 # labels: text labels in the order as in the input data to pheatmap
+# fname: the file name of the output json file
   tree = g$tree_row
   if(!row){
     tree = g$tree_col
