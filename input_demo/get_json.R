@@ -13,7 +13,7 @@ get_json <- function(g,row=T,labels=NA, fname='nodes'){
     tree = g$tree_col
   }
 
-  if(is.na(labels)){
+  if(length(labels)==1 && is.na(labels)){
     labels = tree$labels
   }
   

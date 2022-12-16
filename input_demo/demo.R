@@ -11,5 +11,6 @@ graphics.off()
 
 get_json(g,labels=labels,fname='nodes_row_R')
 
-# # for column dendrogram
-# get_json(g,F)
+# for column dendrogram
+col_labels = colnames(mat2)
+get_json(g,F,fname='nodes_col_R')
