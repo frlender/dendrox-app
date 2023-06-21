@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dendrox-app/static/css/main.251b3b53.css",
-    "main.js": "/dendrox-app/static/js/main.c24fa14b.js",
+    "main.css": "/dendrox-app/static/css/main.74be555a.css",
+    "main.js": "/dendrox-app/static/js/main.2513bdcc.js",
     "static/js/787.4c7ccae5.chunk.js": "/dendrox-app/static/js/787.4c7ccae5.chunk.js",
     "index.html": "/dendrox-app/index.html",
-    "main.251b3b53.css.map": "/dendrox-app/static/css/main.251b3b53.css.map",
-    "main.c24fa14b.js.map": "/dendrox-app/static/js/main.c24fa14b.js.map",
+    "main.74be555a.css.map": "/dendrox-app/static/css/main.74be555a.css.map",
+    "main.2513bdcc.js.map": "/dendrox-app/static/js/main.2513bdcc.js.map",
     "787.4c7ccae5.chunk.js.map": "/dendrox-app/static/js/787.4c7ccae5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.251b3b53.css",
-    "static/js/main.c24fa14b.js"
+    "static/css/main.74be555a.css",
+    "static/js/main.2513bdcc.js"
   ]
 }
